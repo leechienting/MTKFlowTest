@@ -15,6 +15,7 @@
 		B604601C1C97AB14008FC6D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B604601A1C97AB14008FC6D7 /* LaunchScreen.storyboard */; };
 		B60460271C97AB14008FC6D7 /* MTKFlowTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B60460261C97AB14008FC6D7 /* MTKFlowTestTests.m */; };
 		B60460321C97AB14008FC6D7 /* MTKFlowTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B60460311C97AB14008FC6D7 /* MTKFlowTestUITests.m */; };
+		B60460411C97F502008FC6D7 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = B60460401C97F502008FC6D7 /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B604602D1C97AB14008FC6D7 /* MTKFlowTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTKFlowTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B60460311C97AB14008FC6D7 /* MTKFlowTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTKFlowTestUITests.m; sourceTree = "<group>"; };
 		B60460331C97AB14008FC6D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B604603F1C97F502008FC6D7 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		B60460401C97F502008FC6D7 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				B604601A1C97AB14008FC6D7 /* LaunchScreen.storyboard */,
 				B604601D1C97AB14008FC6D7 /* Info.plist */,
 				B604600C1C97AB14008FC6D7 /* Supporting Files */,
+				B604603F1C97F502008FC6D7 /* ViewController2.h */,
+				B60460401C97F502008FC6D7 /* ViewController2.m */,
 			);
 			path = MTKFlowTest;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B60460141C97AB14008FC6D7 /* ViewController.m in Sources */,
+				B60460411C97F502008FC6D7 /* ViewController2.m in Sources */,
 				B60460111C97AB14008FC6D7 /* AppDelegate.m in Sources */,
 				B604600E1C97AB14008FC6D7 /* main.m in Sources */,
 			);
@@ -496,6 +502,7 @@
 				B60460381C97AB14008FC6D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B60460391C97AB14008FC6D7 /* Build configuration list for PBXNativeTarget "MTKFlowTestTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				B604603B1C97AB14008FC6D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B604603C1C97AB14008FC6D7 /* Build configuration list for PBXNativeTarget "MTKFlowTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				B604603E1C97AB14008FC6D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
