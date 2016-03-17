@@ -1,4 +1,0 @@
-[submodule "MTKFlowTest/AFNetwork"]
-	path = MTKFlowTest/AFNetwork
-	url = https://leechienting@github.com/AFNetworking/AFNetworking.git
-	fetchrecursesubmodules = false
